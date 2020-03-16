@@ -119,7 +119,7 @@ export const Group: React.FC<GroupProps> = ({
       <GroupContainer
         controlsLeft={
           <>
-            <Option
+            {/* <Option
               isSelected={!!isNegated}
               value={!isNegated}
               disabled={readOnly}
@@ -127,7 +127,7 @@ export const Group: React.FC<GroupProps> = ({
               data-test="Option[not]"
             >
               {strings.group.not}
-            </Option>
+            </Option> */}
             <Option
               isSelected={value === 'AND'}
               value="AND"

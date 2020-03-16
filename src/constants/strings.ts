@@ -46,10 +46,10 @@ export const strings: Strings = {
     selectYourValue: 'Select your value',
   },
   operators: {
-    LARGER: 'Larger',
-    SMALLER: 'Smaller',
-    LARGER_EQUAL: 'Larger or equal',
-    SMALLER_EQUAL: 'Smaller or equal',
+    LARGER: 'Greater than',
+    SMALLER: 'Less than',
+    LARGER_EQUAL: 'Greater than or equal to',
+    SMALLER_EQUAL: 'Less than or equal to',
     EQUAL: 'Equal',
     NOT_EQUAL: 'Not equal',
     ALL_IN: 'All in',
@@ -58,6 +58,6 @@ export const strings: Strings = {
     BETWEEN: 'Between',
     NOT_BETWEEN: 'Not between',
     LIKE: 'Like',
-    NOT_LIKE: 'Not like'
+    NOT_LIKE: 'Not like',
   },
 };
